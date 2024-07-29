@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7dc9095d.css",
+    "main.js": "/static/js/main.39732f0a.js",
+    "static/media/pngtree-the-aisles-of-an-orange-grocery-store-filled-with-groceries-picture-image_2738825.jpg": "/static/media/pngtree-the-aisles-of-an-orange-grocery-store-filled-with-groceries-picture-image_2738825.34cf243d12e4f5f12edd.jpg",
+    "index.html": "/index.html",
+    "main.7dc9095d.css.map": "/static/css/main.7dc9095d.css.map",
+    "main.39732f0a.js.map": "/static/js/main.39732f0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc9095d.css",
+    "static/js/main.39732f0a.js"
+  ]
+}
