@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+.container h1 {
+  margin-bottom: 20px;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+.container input[type="email"],
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="tel"],
+.container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+}
+.container button {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: darkgreen;
+}
+.toggle {
+  color: green;
+  cursor: pointer;
+}
+.toggle:hover {
+  color: darkgreen;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.contact-us {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-us:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
